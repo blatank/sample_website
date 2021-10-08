@@ -6,10 +6,10 @@
   </head>
   <body>
 
-    <div>
-      <a href="index.html">homeページ</a>
-      <a href="moby_dick.html">読書案内『Moby Dick』</a>
-      <a href="tags.html">HTMLタグ一覧</a>
+    <div style="text-align: right;">
+      <a href="index.html" style="text-decoration: none; color: #00e">homeページ</a>
+      <a href="tags.html" style="margin: 0 0 0 10px; text-decoration: none; color: #00e">HTMLタグ一覧</a>
+      <a href="moby_dick.html" style="margin: 0 0 0 10px; text-decoration: none; color: #00e">読書案内『Moby Dick』</a>
     </div>
 
     <h1>重要なHTMLタグ一覧</h1>
@@ -64,6 +64,11 @@
         <td>この中に表のセルデータを置く</td>
       </tr>
       <tr>
+        <td><code>th</code></td>
+        <td>表の項目名データ(table header)</td>
+        <td>この中に表の項目名を置く</td>
+      </tr>
+      <tr>
         <td><code>header</code></td>
         <td>見出し(header)</td>
         <td>見出しを定義する</td>
@@ -84,9 +89,19 @@
         <td>順序なしリストを表示する</td>
       </tr>
       <tr>
-        <td><code>ul</code></td>
+        <td><code>li</code></td>
         <td>リスト(list)</td>
         <td>リストを1つ表示する</td>
+      </tr>
+      <tr>
+        <td><code>blockquote</code></td>
+        <td>ブロック引用(block quote)</td>
+        <td>ブロック単位で引用を表す</td>
+      </tr>
+      <tr>
+        <td><code>br</code></td>
+        <td>改行要素(break)</td>
+        <td>テキストのブロック内で改行を行う</td>
       </tr>
     </table>
 
@@ -158,7 +173,45 @@
         <td>&lt;span&gt;ここを強調&lt;/span&gt;</td>
         <td><span>ここを強調</span></td>
       </tr>
+    </table>
 
+    <h2>ドキュメントタグ</h2>
+    <table>
+      <tr>
+        <th>HTMLタグ</th>
+        <th>タグ名</th>
+        <th>目的</th>
+      </tr>
+      <tr>
+        <td><code>html</code></td>
+        <td>HTML文書のルート(html)</td>
+        <td>HTML文書を定義する</td>
+      </tr>
+      <tr>
+        <td><code>head</code></td>
+        <td>HTML文書のヘッダ(header)</td>
+        <td>機械処理のための情報を保持する</td>
+      </tr>
+      <tr>
+        <td><code>title</code></td>
+        <td>HTML文書のタイトル(title)</td>
+        <td>HTML文書のタイトルを定義する</td>
+      </tr>
+      <tr>
+        <td><code>meta</code></td>
+        <td>メタデータ(meta)</td>
+        <td>他のメタ関連要素では表すことのできない任意のメタデータを定義する</td>
+      </tr>
+      <tr>
+        <td><code>body</code></td>
+        <td>HTML文書の本文(body)</td>
+        <td>HTML文書の本文を記述する</td>
+      </tr>
+      <tr>
+        <td><code>!DOCTYPE</code></td>
+        <td>文書の定義</td>
+        <td>文書の種類を定義する</td>
+      </tr>
     </table>
   </body>
 </html>
